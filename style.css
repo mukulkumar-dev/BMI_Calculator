@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin:0;
+}
+
+#header{
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: aqua;
+   border-radius: 20px 20px 0px 0px;
+}
+
+#icon{
+    font-size: 50px;
+}
+.container{
+    width: 25%;
+    /* background-color: rgb(219, 214, 214);     */
+    border: 1px solid;
+    border-radius: 20px;
+}
+.comp{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+input{
+    border:none;
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    border-bottom: 1px solid;
+    border-color: aqua;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(213, 210, 210);
+    border-color: aqua;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right:15px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+}
+.res{
+    text-align: center;
+}
+.guide{
+    border-radius: 0px 0px 20px 20px;
+    padding-left: 20px;
+}
+.guide > h2{
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+}
+#result{
+    color: aqua;
+}

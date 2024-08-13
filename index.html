@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div id="header">
+            <span class="material-symbols-outlined" id="icon">calculate</span>
+            <h2>BMI Calculator</h2>
+            <hr>
+        </div>
+        <div class="comp">
+            <div class="comp1">
+                <input type="number" id="height">
+                <h4>Height (in cm) :</h4>
+            </div>
+            <div>
+                <input type="number" id="weight">
+                <h4>Weight (in Kg) :</h4>
+            </div>
+        </div>
+
+        <div class="btn">
+            <button onclick="reset()">Reset</button>
+            <button onclick="calculateBMI()">Calculate</button>
+        </div>
+
+        <div class="res">
+            <h1 id="display"></h1>
+            <h2 id="result">Your BMI Is : </h2>
+        </div>
+
+        <div class="guide">
+            <hr>
+            <h2>BMI Guide</h2>
+            <p>Below 18.5----Underweight</p>
+            <p>18.5-24.9 ----Normal weight</p>
+            <p>25-29.9 ----Overweight</p>
+            <p> 30-35 ----Obese</p>
+            <p>Over 35 -----Morbid obesity</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
